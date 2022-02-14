@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+				"Hello",
+				"Hi",
+				"Hey",
+				"Is anyone there",
+				"Good day"
+			],
+			"responses": [
+				"Hello",
+				"Hello, how can I help you?",
+				"Hello, what can I do for you?"
+			]
+        },
+		{
+			"tag": "capabilities",
+			"patterns": [
+				"What can you do?",
+				"who are you?"
+			],
+			"responses": ["I am robot consultant. I can advise on banking products"]
+		},
+		{
+      		"tag": "thanks",
+      		"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thank's a lot!"
+			],
+      		"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure"
+			]
+    	},
+		{
+			"tag": "banking product types",
+			"patterns": [
+				"What are banking products?",
+				"What does it mean?"
+			],
+			"responses": [
+				"A banking product is a banking document (certificate), thanks to which the bank performs the operations necessary for the client. In general, the main products of a financial institution include:\nOperations with currency (purchase and sale, currency and percentage arbitrage). The most common exchange of dollars or euros for rubles (for the financial market of the Russian Federation). The bank 'wins' by charging a set percentage on currency exchange.\nLoans for individuals and legal entities. The Bank provides the subjects with the agreed amount of funds on the terms of repayment with interest. The issuance of a loan should have a basis: mortgage registration, purchase of transport, business organization, etc.\nSavings deposits (deposits). Accumulation of funds in the account. You can invest even small amounts and partially withdraw the funds as needed. At the end of the term, the depositor receives not only his funds, but also a percentage from the bank for their storage.\nBills of exchange are securities that secure the obligation of the drawer to pay a certain amount to the holder of the bill. In fact, the bill is a confirmation of the debt.\nDocuments and receipts confirming that the bank has accepted jewelry, securities and other items from the client for safekeeping.\nPlastic cards (debit, i.e. cards for payment, or credit). They allow clients to carry out operations in a non-cash format: money transfer, payment for goods and services, accumulation, transfer to other clients.\nLeasing is an investment operation. It involves the acquisition of property and its transfer to other persons for a fee.\n\nPopular services include:\nImplementation of consultations. Clients turn to bank employees in order to get answers to questions. Most often, consultations are held for those who are going to invest funds, purchase securities or register a business.\nActually financial services. They became popular only in the second half of the 20th century, when states were rebuilding their economies after World War II. This includes leasing services (a bank buys property and leases it to a client with the possibility of further redemption), trust services (formation of trust property), factoring services (for manufacturers and suppliers).\nInsurance services. They are a means of protecting the life, health, property and other interests of the client in the event that an unforeseen situation occurs that causes harm and losses. Insurance can be medical (policy), mortgage, travel, etc.\nBrokerage services. Banks help customers purchase securities such as stocks and bonds. They act as an intermediary between the seller (company) and the buyer (client).\nInvestment services."
+			]
+		},
+		{
+			"tag": "Quit",
+			"patterns": [
+				"See you",
+				"Good bye",
+				"Bye",
+				"Have a nice day!"
+			],
+			"responses": [
+				"Have a nice day!",
+				"Bye! Come back again soon.",
+				"Good bye!"
+			]
+		}
+    ]
+}
